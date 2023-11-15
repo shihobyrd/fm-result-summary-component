@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary */
+    --rsc-light-red: hsl(0, 100%, 67%);
+    --rsc-orange-yellow: hsl(39, 100%, 56%);
+    --rsc-green-teal: hsl(166, 100%, 37%);
+    --rsc-cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Gradients */
+    --rsc-bg-light-slate-blue: hsl(252, 100%, 67%);
+    --rsc-bg-light-royal-blue: hsl(241, 81%, 54%);
+    --rsc-circle-violet-blue: hsla(256, 72%, 46%, 1);
+    --rsc-circle-persian-blue: : hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+    --rsc-neutral-white: hsl(0, 0%, 100%);
+    --rsc-neutral-pale-blue: hsl(221, 100%, 96%);
+    --rsc-neutral-light-lavender: hsl(241, 100%, 89%);
+    --rsc-neutral-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(/assets/fonts/static/HankenGrotesk-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(/assets/fonts/static/HankenGrotesk-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(/assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
